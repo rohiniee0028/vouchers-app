@@ -1,0 +1,34 @@
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: -10px;
+}
+#navbar>a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+#navbar>h3{
+    margin-left:20px;
+}
+#voucher_list{
+    display: flex;
+    width:200px;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+    
+}
+.voucher{
+    border: 1px solid rgb(40, 221, 40);
+    padding:5px;
+}
+#wallet_balance{
+    font-weight: bold;
+    margin-top: 18px;
+}

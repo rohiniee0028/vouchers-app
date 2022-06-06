@@ -1,0 +1,44 @@
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: -10px;
+}
+#navbar>a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+#navbar>h3{
+    margin-left:20px;
+}
+#formdiv{
+   width:280px;
+   height:350px;
+   display:flex;
+   background-color: rgba(247, 215, 126, 0.753);
+   margin: auto;
+   margin-top: 50px;
+   justify-content: space-evenly;
+   text-align: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+input{
+    width:200px;
+    font-size: 15px;
+}
+#submit{
+    width:150px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
